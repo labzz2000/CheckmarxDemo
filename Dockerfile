@@ -1,5 +1,7 @@
 FROM debian:9.2
 
+USER Me
+
 LABEL maintainer "opsxcq@strm.sh"
 
 RUN apt-get update && \
